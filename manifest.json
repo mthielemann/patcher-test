@@ -42,37 +42,43 @@
       "version": "2.5.3",
       "notes": "**What's new?**\r\n\r\n- We added a new management key `ReasonStrictPresetList`. When set to `true`, the `ReasonPresetList` is used as defined, without creating the additional entry `Other…`. So if you want to ensure that your users have to select one of the defined values and cannot enter anything else, the configuration basically looks like this:\r\n \r\n   ```\r\n   <key>ReasonRequired</key>\r\n   <true/>\r\n   <key>ReasonPresetList</key>\r\n   <array>\r\n      …\r\n   </array>\r\n   <key>ReasonStrictPresetList</key>\r\n   <true/>\r\n   ```\r\n- We added another new management key `PostChangeExecutableChecksum`. It can be used with the existing key, `PostChangeExecutablePath`, to verify the integrity of a script or binary by providing the expected SHA-256 checksum for the file. If the file's actual checksum matches the specified one, the file is executed. Otherwise, the launch operation fails silently, logging only the checksum mismatch.\r\n- Added additional logging for the rare case the group membership could not be changed.\r\n- Fixed an issue with keyboard navigation.\r\n- Fixed an issue with macOS 26 where the app icon did not appear in the dialog box when requesting or revoking admin rights.\r\n- Fixed an issue where app updates would fail under certain conditions when the system extension was enabled. Special thanks to @zachdekoning for the extensive testing and feedback. We really appreciate it.\r",
       "url": "https://github.com/SAP/macOS-enterprise-privileges/releases/download/2.5.3/Privileges_2.5.3.pkg",
-      "date": "2026-05-15T13:15:38Z"
+      "date": "2026-05-15T13:15:38Z",
+      "checksum": "5948b4b809d05796ff09d4f064a72f049a3f895af194c146d3937f005d34401d"
     },
     "corp.sap.SapMachineManager": {
       "version": "1.0.8",
       "notes": "# Changes\r\n* Fixes an issue that occurred when upgrading to a new LTS version. After the upgrade was completed, the previous version might still have been displayed as installed even though it had actually been deleted.",
       "url": "https://github.com/SAP/sapmachine-manager-for-macos/releases/download/1.0.8/SapMachine_Manager_1.0.8.pkg",
-      "date": "2025-10-30T12:50:36Z"
+      "date": "2025-10-30T12:50:36Z",
+      "checksum": "e5233b9389b60f5b00060cdc87bd76e92641d3fd6a75e7e944896adda52444c6"
     },
     "corp.sap.Icons": {
       "version": "2.3.0",
       "notes": "# Changes\r\n- We added the ability to set a **custom delete badge** for the uninstall icon. You can either select an image file or paste a symbol (in SVG format) that was previously copied from [SF Symbols](https://developer.apple.com/sf-symbols/).\r\n- We integrated Apple's **Image Playground** in case you need to create an icon from scratch. (Requires macOS 15.1 or newer)\r\n- You can now copy your icon to the clipboard, so there's no need to save it to disk anymore.\r\n- Images can now be pasted from the clipboard to create an icon of it.\r\n- We redesigned the user interface to give you **more control over the banner**.\r\n- The `icons_cli` command-line tool now also supports long flags and has some new command line arguments.\r\n<br/>\r\n\r\n- We fixed an issue in which application bundles that were actually symbolic links could not be used to create an icon.\r\n- We also fixed a few minor bugs and made several small improvements to the app.\r\n- _Icons 2.3_ requires macOS 13 or newer.\r\n\r\n_Icons 2.3.0_ has been tested and verified to run on the following OS versions:\r\n\r\n* macOS 26.3.1\r\n* macOS 15.6.1\r",
       "url": "https://github.com/SAP/macOS-icon-generator/releases/download/2.3.0/Icons_2.3.0.pkg",
-      "date": "2026-03-23T11:30:59Z"
+      "date": "2026-03-23T11:30:59Z",
+      "checksum": "2cde86553aecf463b3a5385e2fa5557fbbe0b7bafb3f71d80328448cedadba3a"
     },
     "corp.sap.Script2Pkg": {
       "version": "1.1.5",
       "notes": "# Changes\r\n* updated version with new icons for macOS 26",
       "url": "https://github.com/SAP/script-to-package-tool-for-macos/releases/download/1.1.5/Script2Pkg_1.1.5.pkg",
-      "date": "2025-09-12T16:33:28Z"
+      "date": "2025-09-12T16:33:28Z",
+      "checksum": "a0a0740bedaaaaa46a1d6237c8d68509b79d1d47d5a2fff6f0191d30589207a6"
     },
     "corp.sap.Backgrounds": {
       "version": "1.0.7",
       "notes": "# Changes\r\n* updated version with new icons for macOS 26",
       "url": "https://github.com/SAP/backgrounds/releases/download/1.0.7/Backgrounds_1.0.7.pkg",
-      "date": "2025-09-11T11:12:14Z"
+      "date": "2025-09-11T11:12:14Z",
+      "checksum": "817b9e96c1518021e70a1699837e2c6eccaaaaed8e71f85b47913f3d7b6c04c2"
     },
     "corp.sap.PowerMonitor": {
       "version": "1.3.3",
       "notes": "# Changes\r\n* A layout issue in the _Costs_ tab of the settings that occurred only in macOS 26 has been resolved.",
       "url": "https://github.com/SAP/power-monitoring-tool-for-macos/releases/download/1.3.3/PowerMonitor_1.3.3.pkg",
-      "date": "2025-10-23T10:00:13Z"
+      "date": "2025-10-23T10:00:13Z",
+      "checksum": "6d2180970c09519fe3a535cfa8ded8453b38bb71f221f564b87e236f403df51e"
     }
   }
 }
