@@ -81,7 +81,7 @@
     },
     "corp.sap.Icons": {
       "version": "2.3.1",
-      "notes": "# Changes\r\n- Added support for automatic updates using our upcoming app, _Patcher_.\r\n- An issue with app name prefixes was addressed (issue #21), and automatic prefixes were added for images pasted from the Clipboard and images from Image Playground.\r\n- Minor bug fixes and improvements.\r\n- Icons 2.3.1 requires macOS 13 or newer.\r\n\r",
+      "notes": "# Changes\r\n- Added support for automatic updates using our upcoming app, _Patcher_.\r\n- An issue with app name prefixes was addressed (issue [#21](https://github.com/SAP/macOS-icon-generator/issues/21)), and automatic prefixes were added for images pasted from the Clipboard and images from Image Playground.\r\n- Minor bug fixes and improvements.\r\n- Icons 2.3.1 requires macOS 13 or newer.\r\n\r",
       "url": "https://github.com/SAP/macOS-icon-generator/releases/download/2.3.1/Icons_2.3.1.pkg",
       "date": "2026-09-15T09:35:45Z",
       "checksum": "8b1501fe470817ec45522064c461e0a3ef870dbdd1cfa88b326b3f6557c6c211"
