@@ -73,11 +73,11 @@
       "checksum": "5948b4b809d05796ff09d4f064a72f049a3f895af194c146d3937f005d34401d"
     },
     "corp.sap.SapMachineManager": {
-      "version": "1.0.8",
-      "notes": "# Changes\r\n* Fixes an issue that occurred when upgrading to a new LTS version. After the upgrade was completed, the previous version might still have been displayed as installed even though it had actually been deleted.",
-      "url": "https://github.com/SAP/sapmachine-manager-for-macos/releases/download/1.0.8/SapMachine_Manager_1.0.8.pkg",
-      "date": "2025-10-30T12:50:36Z",
-      "checksum": "e5233b9389b60f5b00060cdc87bd76e92641d3fd6a75e7e944896adda52444c6"
+      "version": "1.0.9",
+      "notes": "# Changes\r\n* Added support for automatic updates using our upcoming app, _Patcher_.\r\n* An Install button has been added to make installing a new SapMachine version more convenient.\r\n* Minor bug fixes and improvements.",
+      "url": "https://github.com/SAP/sapmachine-manager-for-macos/releases/download/1.0.9/SapMachine_Manager_1.0.9.pkg",
+      "date": "2026-09-16T08:32:57Z",
+      "checksum": "66645659e86a21d0cc217dac3c7c015dfc124b50ddb13cb71fca57cdc5bcbb67"
     },
     "corp.sap.Icons": {
       "version": "2.3.1",
@@ -87,11 +87,11 @@
       "checksum": "8b1501fe470817ec45522064c461e0a3ef870dbdd1cfa88b326b3f6557c6c211"
     },
     "corp.sap.Script2Pkg": {
-      "version": "1.1.5",
-      "notes": "# Changes\r\n* updated version with new icons for macOS 26",
-      "url": "https://github.com/SAP/script-to-package-tool-for-macos/releases/download/1.1.5/Script2Pkg_1.1.5.pkg",
-      "date": "2025-09-12T16:33:28Z",
-      "checksum": "a0a0740bedaaaaa46a1d6237c8d68509b79d1d47d5a2fff6f0191d30589207a6"
+      "version": "1.1.6",
+      "notes": "# Changes\r\n* Added support for automatic updates using our upcoming app, _Patcher_.\r\n* Minor bug fixes and improvements.\r\n* This version requires macOS 13 or newer.",
+      "url": "https://github.com/SAP/script-to-package-tool-for-macos/releases/download/1.1.6/Script2Pkg_1.1.6.pkg",
+      "date": "2026-09-16T08:44:30Z",
+      "checksum": "2b63d1489629e74e11ca0ac3bc4925994c8d7750c3f0060c8e57d52eead138e3"
     },
     "corp.sap.Backgrounds": {
       "version": "1.0.8",
